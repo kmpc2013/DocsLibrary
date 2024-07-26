@@ -1,0 +1,63 @@
+site_name: Luis Docs
+site_url: https://mydomain.org/
+plugins:
+- search
+- tags:
+    tags_file: home/tags.md
+theme:
+  name: material
+  logo: assets/images/profile-pic-9.png
+  favicon: assets/images/profile-pic-9.png
+  font:
+    text: Roboto
+  language: pt-BR
+  features:
+  - navigation.tabs
+  - navigation.path
+  - navigation.indexes
+  - navigation.top
+  - content.code.copy
+  palette:
+  - media: "(prefers-color-scheme: light)"
+    scheme: indigo
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
+extra_css:
+- stylesheets/extra.css
+
+nav:
+- 🏠 Home:
+  - index.md
+  - 🏷️ Tags: home/tags.md
+- 💡 Dicas:
+  - dicas/index.md
+  - Markdown - Comandos Básicos: dicas/markdown-basics.md
+- 🛠️ Projetos:
+  - projetos/index.md
+  - Integrando Zabbix com OTRS: projetos/integrando_zabbix_com_otrs.md
+  - ZmapL: projetos/zmapl.md
+  - Deploy VMware Cloud Director: projetos/deploy_vmware_cloud_director.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+  
