@@ -308,6 +308,8 @@
       
         
       
+        
+      
     
     
       
@@ -361,6 +363,27 @@
   
   <span class="md-ellipsis">
     🏷️ Tags
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../home/aboutme/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    🤵 Sobre mim
   </span>
   
 
@@ -766,13 +789,18 @@
 
 
 
-<h1 id="zmapl">ZmapL</h1>
+<h1 id="zmapl"><strong>ZmapL</strong></h1>
 <p>Mapeando eventos de um mesmo host no Zabbix para abrir ticket com diferentes caracteristicas.</p>
 <h2 id="motivacao"><strong>Motivação:</strong></h2>
 <p>Durante nosso trabalho recente com o Zabbix, identificamos a necessidade de que um mesmo host abra tickets automaticamente, mas com características distintas baseadas em seu nome. Essa necessidade surgiu devido ao nosso ambiente de Veeam, que gerencia jobs de vários clientes diferentes. Quando um chamado é gerado automaticamente, gostaríamos que ele fosse categorizado corretamente com o nome do cliente e o serviço apropriado.</p>
 <h2 id="solucao"><strong>Solução:</strong></h2>
 <p>Consideramos algumas abordagens, como segmentar os jobs em múltiplos hosts no Zabbix, com cada host dedicado a um cliente específico. No entanto, essa solução complicaria a organização e a inclusão de novos clientes. Assim, optamos por uma abordagem mais eficiente: utilizamos um arquivo JSON como um "DE/PARA" que mapeia o JOB com um prefixo e define as características que o chamado deve ter. Contudo, manter e atualizar esse arquivo JSON sempre que um cliente é adicionado, removido ou modificado, especialmente com várias pessoas envolvidas, pode ser propenso a erros.</p>
-<p>Para resolver esse problema, desenvolvemos uma aplicação web que facilita o gerenciamento desse arquivo. A solução foi criada usando Angular para o frontend, Node.js para o backend e MySQL para o banco de dados. Toda a infraestrutura está containerizada com Docker e pode ser visualizada <a href="https://hub.docker.com/repository/docker/kmpc2013/zmaplfront/general">aqui para o frontend</a> e <a href="https://hub.docker.com/repository/docker/kmpc2013/zmaplback/general">aqui para o backend</a>.</p>
+<p>Para resolver esse problema, desenvolvemos uma aplicação web que facilita o gerenciamento desse arquivo. A solução foi criada usando <strong>Angular</strong> para o frontend, <strong>Node.js</strong> para o backend e <strong>MySQL</strong> para o banco de dados. Toda a infraestrutura está containerizada com <strong>Docker</strong> e pode ser visualizada nos links abaixo:</p>
+<ul>
+<li><a href="https://github.com/kmpc2013/ZmapL" target="_blank">Projeto no GitHub</a></li>
+<li><a href="https://hub.docker.com/repository/docker/kmpc2013/zmaplfront/general" target="_blank">Container Frontend</a></li>
+<li><a href="https://hub.docker.com/repository/docker/kmpc2013/zmaplback/general" target="_blank">Container Backend</a></li>
+</ul>
 <h2 id="beneficios"><strong>Benefícios:</strong></h2>
 <p>Com essa solução, qualquer usuário pode acessar o portal, chamado ZmapL (abreviação de Zabbix Map to Ligero), para realizar as ações necessárias. Isso traz mais facilidade, agilidade e reduz significativamente a incidência de erros.</p>
 
