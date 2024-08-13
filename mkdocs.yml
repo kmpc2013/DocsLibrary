@@ -35,6 +35,7 @@ nav:
 - 🏠 Home:
   - index.md
   - 🏷️ Tags: home/tags.md
+  - 🤵 Sobre mim: home/aboutme.md
 - 💡 Dicas:
   - dicas/index.md
   - Markdown - Comandos Básicos: dicas/markdown-basics.md

@@ -1,48 +1,31 @@
 # 📚 Bem-vindo à Biblioteca de Documentações
 
-Olá e bem-vindo à nossa biblioteca de documentações! 🎉 Aqui você encontrará todas as informações necessárias para explorar e utilizar nossas ferramentas e recursos. Navegue através dos nossos guias, tutoriais e referências para tirar o máximo proveito da nossa plataforma.
+Olá e bem-vindo à minha biblioteca de documentações! 🎉 Aqui você encontrará diversas informações de projetos e experiências que tive durante minha carreira. Navegue através das guias, tutoriais e referências para tirar o máximo proveito.
 
 ## 🚀 Primeiros Passos
 
-Se você está começando, recomendamos dar uma olhada nos seguintes documentos para se familiarizar com a nossa plataforma:
+Se você está começando, recomendamos dar uma olhada nos seguintes documentos para se familiarizar:
 
-- [Introdução](introduction.md): Saiba mais sobre nossa missão e como começar.
-- [Guia de Instalação](installation.md): Passo a passo para instalar nossos softwares.
-- [Primeiro Projeto](first_project.md): Crie seu primeiro projeto em minutos.
-
-## 📖 Documentação Completa
-
-Explore nossa documentação completa para encontrar informações detalhadas sobre todas as funcionalidades e recursos que oferecemos:
-
-- [API Referência](api_reference.md): Detalhes sobre todas as nossas APIs.
-- [Tutoriais](tutorials.md): Tutoriais passo a passo para diversas tarefas.
-- [FAQs](faqs.md): Perguntas frequentes e suas respostas.
-
-## 💬 Comunidade e Suporte
-
-Tem alguma dúvida ou precisa de ajuda? Nossa comunidade e equipe de suporte estão aqui para ajudar você!
-
-- [Fórum da Comunidade](community_forum.md): Participe da discussão com outros usuários.
-- [Suporte Técnico](support.md): Entre em contato com nossa equipe de suporte.
-- [Blog](blog.md): Fique atualizado com as últimas notícias e artigos.
-
-## 📅 Eventos e Webinars
-
-Não perca nossos próximos eventos e webinars! Participe para aprender mais e interagir com nossa equipe e outros usuários.
-
-- [Calendário de Eventos](events_calendar.md): Veja a agenda completa dos nossos eventos.
-- [Inscreva-se nos Webinars](webinars.md): Participe dos nossos webinars ao vivo.
+- [Sobre mim](home/aboutme.md): Saiba mais sobre quem eu sou.
+- [ZmapL](projetos/zmapl.md): Mapeando eventos de um mesmo host no Zabbix para abrir ticket com diferentes caracteristicas.
+- [VMware Cloud Director](projetos/deploy_vmware_cloud_director.md): Deploy de um ambiente de nuvem com VMware Cloud Director.
 
 ## 🔗 Links Úteis
 
-Aqui estão alguns links rápidos para ajudar você a encontrar o que precisa rapidamente:
+Aqui estão alguns links rápidos para minhas outras redes:
 
-- [Página Inicial](index.md)
-- [Guia do Usuário](user_guide.md)
-- [Política de Privacidade](privacy_policy.md)
-- [Termos de Serviço](terms_of_service.md)
+- [Portifólio](https://kmpc2013.github.io/portifolio/)
+- [LinkedIn](https://www.linkedin.com/in/luis-gustavo-fernandes-99a42910b/)
+
+## 💬 Contatos
+
+Tem alguma dúvida ou precisa de ajuda? Me envie um e-mail!
+
+- <a href="mailto:luis.vidio9@gmail.com" target="_blank">✉️ luis.vidio9@gmail.com</a>.
+- <a href="https://wa.me/5547988373112" target="_blank">📞 (47) 98837-3112</a>.
+
 
 ---
 
-Estamos felizes por ter você aqui! Se precisar de algo, não hesite em nos contactar. Vamos juntos explorar o mundo da documentação! 🌟
+Estou muito feliz por ter você aqui! Se precisar de algo, não hesite em me contactar. 🌟
 

@@ -65,6 +65,7 @@ Os links em Markdown permitem que você crie hiperlinks de maneira simples e leg
 [Texto do Link](http://exemplo.com "Título do Link")
 <http://exemplo.com>
 [![Texto Alternativo da Imagem](http://exemplo.com/imagem.png)](http://exemplo.com)
+
 [texto do link]: http://exemplo.com "Título Opcional"
 Este é um [link de referência][texto do link].
 ~~~
@@ -75,10 +76,9 @@ Este é um [link de referência][texto do link].
     
     <http://exemplo.com>
     
-    [![Texto Alternativo da Imagem](http://exemplo.com/imagem.png)](http://exemplo.com)
+    [![Texto Alternativo da Imagem](../assets/images/profile-pic-23.png)](http://exemplo.com)
     
     [texto do link]: http://exemplo.com "Título Opcional"
-    
     Este é um [link de referência][texto do link].
 
 <a name="secao-ancoras"></a>

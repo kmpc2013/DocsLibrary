@@ -6,7 +6,9 @@ tags:
   - Node.js
   - OTRS
 ---
-# ZmapL
+
+# **ZmapL**
+
 Mapeando eventos de um mesmo host no Zabbix para abrir ticket com diferentes caracteristicas.
 
 ## **Motivação:**
@@ -17,7 +19,11 @@ Durante nosso trabalho recente com o Zabbix, identificamos a necessidade de que 
 
 Consideramos algumas abordagens, como segmentar os jobs em múltiplos hosts no Zabbix, com cada host dedicado a um cliente específico. No entanto, essa solução complicaria a organização e a inclusão de novos clientes. Assim, optamos por uma abordagem mais eficiente: utilizamos um arquivo JSON como um "DE/PARA" que mapeia o JOB com um prefixo e define as características que o chamado deve ter. Contudo, manter e atualizar esse arquivo JSON sempre que um cliente é adicionado, removido ou modificado, especialmente com várias pessoas envolvidas, pode ser propenso a erros.
 
-Para resolver esse problema, desenvolvemos uma aplicação web que facilita o gerenciamento desse arquivo. A solução foi criada usando Angular para o frontend, Node.js para o backend e MySQL para o banco de dados. Toda a infraestrutura está containerizada com Docker e pode ser visualizada [aqui para o frontend](https://hub.docker.com/repository/docker/kmpc2013/zmaplfront/general) e [aqui para o backend](https://hub.docker.com/repository/docker/kmpc2013/zmaplback/general).
+Para resolver esse problema, desenvolvemos uma aplicação web que facilita o gerenciamento desse arquivo. A solução foi criada usando **Angular** para o frontend, **Node.js** para o backend e **MySQL** para o banco de dados. Toda a infraestrutura está containerizada com **Docker** e pode ser visualizada nos links abaixo:
+
+- <a href="https://github.com/kmpc2013/ZmapL" target="_blank">Projeto no GitHub</a>
+- <a href="https://hub.docker.com/repository/docker/kmpc2013/zmaplfront/general" target="_blank">Container Frontend</a>
+- <a href="https://hub.docker.com/repository/docker/kmpc2013/zmaplback/general" target="_blank">Container Backend</a>
 
 ## **Benefícios:**
 
