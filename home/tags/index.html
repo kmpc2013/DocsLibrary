@@ -43,8 +43,8 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Comfortaa";--md-code-font:"Roboto Mono"}</style>
       
     
     
@@ -57,7 +57,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -445,6 +454,24 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#kubernetes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kubernetes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linux" class="md-nav__link">
+    <span class="md-ellipsis">
+      Linux
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#markdown" class="md-nav__link">
     <span class="md-ellipsis">
       Markdown
@@ -577,6 +604,8 @@
       
         
       
+        
+      
     
     
       
@@ -630,6 +659,27 @@
   
   <span class="md-ellipsis">
     Markdown - Comandos Básicos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dicas/kubernetes-basics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes - Conceitos Básicos
   </span>
   
 
@@ -839,6 +889,24 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#kubernetes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kubernetes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linux" class="md-nav__link">
+    <span class="md-ellipsis">
+      Linux
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#markdown" class="md-nav__link">
     <span class="md-ellipsis">
       Markdown
@@ -954,6 +1022,14 @@
 <li><a href="../../dicas/">💡 Dicas</a></li>
 <li><a href="../../projetos/">🛠️ Projetos</a></li>
 </ul>
+<h2 id="kubernetes"><span class="md-tag">Kubernetes</span></h2>
+<ul>
+<li><a href="../../dicas/kubernetes-basics/">Kubernetes - Conceitos Básicos</a></li>
+</ul>
+<h2 id="linux"><span class="md-tag">Linux</span></h2>
+<ul>
+<li><a href="../../dicas/kubernetes-basics/">Kubernetes - Conceitos Básicos</a></li>
+</ul>
 <h2 id="markdown"><span class="md-tag">Markdown</span></h2>
 <ul>
 <li><a href="../../dicas/markdown-basics/">Markdown - Comandos Básicos</a></li>
@@ -1050,5 +1126,7 @@
       <script src="../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": false, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>
