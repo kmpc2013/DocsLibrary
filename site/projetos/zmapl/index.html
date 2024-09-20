@@ -43,8 +43,8 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Comfortaa";--md-code-font:"Roboto Mono"}</style>
       
     
     
@@ -57,7 +57,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -415,6 +424,8 @@
       
         
       
+        
+      
     
     
       
@@ -468,6 +479,27 @@
   
   <span class="md-ellipsis">
     Markdown - Comandos Básicos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dicas/kubernetes-basics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes - Conceitos Básicos
   </span>
   
 
@@ -801,7 +833,7 @@
 <li><a href="https://hub.docker.com/repository/docker/kmpc2013/zmaplfront/general" target="_blank">Container Frontend</a></li>
 <li><a href="https://hub.docker.com/repository/docker/kmpc2013/zmaplback/general" target="_blank">Container Backend</a></li>
 </ul>
-<p><img alt="zmapl_image" src="../../assets/image.png" /></p>
+<p><a class="glightbox" href="../../assets/image.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="zmapl_image" src="../../assets/image.png" /></a></p>
 <h2 id="beneficios"><strong>Benefícios:</strong></h2>
 <p>Com essa solução, qualquer usuário pode acessar o portal, chamado ZmapL (abreviação de Zabbix Map to Ligero), para realizar as ações necessárias. Isso traz mais facilidade, agilidade e reduz significativamente a incidência de erros.</p>
 
@@ -865,5 +897,7 @@
       <script src="../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": false, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>
